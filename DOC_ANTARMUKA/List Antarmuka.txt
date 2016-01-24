@@ -1,0 +1,54 @@
+HALAMAN UTAMA
+T00 = Halaman Login
+T01 = Halaman Register Orang Tua
+
+HALAMAN GURU
+T00 = Halaman Login
+G01 = Halaman Utama Guru
+G02 = Halaman Lihat Profil
+G03 = Halaman Ubah Profil
+G04 = Halaman Ubah Password
+G05 = Halaman Pengolahan Materi
+G06 = Halaman Tambah Materi
+G07 = Halaman Ubah Materi
+G08 = Halaman Pengolahan Soal
+G09 = Halaman Tambah Soal
+G10 = Halaman Ubah Soal
+G11 = Halaman Listing Soal
+G12 = Halaman Pengolahan Tryout
+G13 = Halaman Tambah Tryout
+G14 = Halaman Ubah Tryout
+G15 = Halaman Nilai Daftar Kelas
+G16 = Halaman Nilai Daftar Siswa
+G17 = Halaman Tambah Nilai Siswa
+G18 = Halaman Lihat Nilai Siswa
+G19 = Halaman Analisis Butir Soal (Tingkat Kesukaran Soal)
+G20 = Halaman Hasil Analisis Butir Soal (Tingkat Kesukaran Soal)
+G21 = Halaman Gallery
+G22 = Halaman Tambah Foto
+G23 = Halaman Ubah Foto
+
+HALAMAN SISWA
+T00 = Halaman Login
+S01 = Halaman Utama Siswa
+S02 = Halaman Lihat Profil
+S03 = Halaman Ubah Profil
+S04 = Halaman Ubah Password
+S05 = Halaman Listing Tryout
+S06 = Halaman Pelaksanaan Tryout
+S07 = Halaman Akhir Tryout
+S08 = Halaman Informasi Nilai
+S09 = Halaman Gallery
+S10 = Halaman Tambah Foto
+S11 = Halaman Ubah Foto
+
+HALAMAN ORANG TUA
+T00 = Halaman Login
+OT01 = Halaman Utama Orang Tua
+OT02 = Halaman Lihat Profil
+OT03 = Halaman Ubah Profil
+OT04 = Halaman Ubah Password
+OT05 = Halaman Informasi Nilai Anak
+OT06 = Halaman Gallery
+OT07 = Halaman Tambah Foto
+OT08 = Halaman Ubah Foto
