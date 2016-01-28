@@ -46,12 +46,12 @@ else
   <!--STATUS-->
   <div class="control-group">
    <label class="control-label visible-ie8 visible-ie9">Password</label>
-   <div class="controls"><center>
+   <div class="controls">
      <select name="status"/>
 	  <option value="siswa">Siswa</option>
 	  <option value="guru">Pengajar</option>
 	  <option value="ortu">Orang Tua Siswa</option>
-	 </select><center>
+	 </select>
    </div>
   </div>
   <!--TOMBOL LOGIN-->

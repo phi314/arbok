@@ -96,6 +96,7 @@ function menu_utama()
      <li><a href="O121/profil_ubah_password.php?id_ortu=<?php echo $id_ortu; ?>">Ubah Password</a></li>
     </ul>
    <li class="start "><a href="O121/nilai.php"><i class="icon-bar-chart"></i><span class="title">Lihat Nilai</span></a></li>
+  <li class=""><a href="O121/monitoring_absensi_siswa.php"><i class="icon-table"></i><span class="title">Monitoring Absensi</span></a></li>
    <li class=""><a href="O121/gallery.php?id_ortu=<?php echo $id_ortu; ?>"><i class="icon-camera"></i><span class="title">Gallery</span></a></li>
   </ul>
  </div>

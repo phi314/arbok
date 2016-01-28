@@ -23,15 +23,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="absensi_detail_ubah.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_ubah.php">
+      <file leaf-file-name="monitoring_absensi_siswa.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/halaman/O121/monitoring_absensi_siswa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.34602076" vertical-offset="736" max-vertical-offset="2970">
+            <state line="202" column="175" selection-start="8155" selection-end="8155" vertical-scroll-proportion="0.7058824" vertical-offset="3228" max-vertical-offset="4950">
               <folding>
-                <marker date="1453613544180" expanded="true" signature="486:689" placeholder="SELECT *, si..absensi_detail..." />
-                <marker date="1453613544180" expanded="true" signature="1200:1281" placeholder="UPDATE absen..." />
-                <marker date="1453613544180" expanded="true" signature="1206:1266" placeholder="INSERT INTO ..." />
-                <marker date="1453613544180" expanded="true" signature="4845:4928" placeholder="..." />
+                <marker date="1453999478960" expanded="true" signature="376:410" placeholder="SELECT * FRO..ortu..." />
+                <marker date="1453999478960" expanded="true" signature="376:427" placeholder="SELECT * FRO..ortu..." />
+                <marker date="1453999478960" expanded="true" signature="783:798" placeholder="..." />
+                <marker date="1453999478960" expanded="true" signature="4113:4586" placeholder="SELECT absen..absensi..." />
+                <marker date="1453999478960" expanded="true" signature="6063:6121" placeholder="SELECT nis, ..siswa..." />
+                <marker date="1453999478960" expanded="true" signature="6608:6716" placeholder="SELECT id, t..absensi..." />
+                <marker date="1453999478960" expanded="true" signature="8063:8163" placeholder="SELECT absen..absensi_detail..." />
               </folding>
             </state>
           </provider>
@@ -55,12 +58,20 @@
         <option value="$PROJECT_DIR$/halaman/AX50/detail_absensi_hapus.php" />
         <option value="$PROJECT_DIR$/halaman/AX50/absensi_detail_tambah.php" />
         <option value="$PROJECT_DIR$/halaman/AX50/absensi_tambah.php" />
-        <option value="$PROJECT_DIR$/halaman/AX50/absensi_detail_generate.php" />
         <option value="$PROJECT_DIR$/halaman/AX50/desain_admin.php" />
         <option value="$PROJECT_DIR$/lib_function.php" />
-        <option value="$PROJECT_DIR$/halaman/AX50/monitoring_absensi.php" />
         <option value="$PROJECT_DIR$/halaman/AX50/absensi_detail.php" />
         <option value="$PROJECT_DIR$/halaman/AX50/absensi_detail_ubah.php" />
+        <option value="$PROJECT_DIR$/halaman/AX50/absensi_detail_generate.php" />
+        <option value="$PROJECT_DIR$/halaman/desain_admin.php" />
+        <option value="$PROJECT_DIR$/halaman/AX50/monitoring_absensi.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/halaman/desain_guru.php" />
+        <option value="$PROJECT_DIR$/halaman/D255/monitoring_absensi.php" />
+        <option value="$PROJECT_DIR$/halaman/D255/desain_guru.php" />
+        <option value="$PROJECT_DIR$/halaman/O121/desain_ortu.php" />
+        <option value="$PROJECT_DIR$/halaman/desain_ortu.php" />
+        <option value="$PROJECT_DIR$/halaman/O121/monitoring_absensi_siswa.php" />
       </list>
     </option>
   </component>
@@ -144,6 +155,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="O121" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arbok" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arbok" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="AX50" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -173,6 +202,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/halaman/O121" />
+      <recent name="$PROJECT_DIR$/halaman/D255" />
       <recent name="$PROJECT_DIR$/halaman/AX50" />
     </key>
   </component>
@@ -203,14 +234,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27065304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2848151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -242,52 +273,65 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail.php">
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_ubah.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="266" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="2988">
+        <state line="49" column="24" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="1006" max-vertical-offset="2970">
           <folding>
-            <marker date="1453612800638" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
-            <marker date="1453612800638" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi_detail..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="SELECT *, si..absensi_detail..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="UPDATE absen..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi.php">
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_ubah.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="44" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="2556">
+        <state line="49" column="24" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="2970">
           <folding>
-            <marker date="1453203723377" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="SELECT *, si..absensi_detail..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="UPDATE absen..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_ubah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="35" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="2970">
+          <folding>
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="SELECT *, si..absensi_detail..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="UPDATE absen..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="266" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="2988" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="44" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="2556" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_tambah.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="2808">
-          <folding>
-            <marker date="1453264663735" expanded="true" signature="-1:-1" placeholder="SELECT id FR..absensi..." />
-            <marker date="1453264663735" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
+        <state line="42" column="13" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="2808" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="129" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2862">
-          <folding>
-            <marker date="1453612800638" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
-            <marker date="1453612800638" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi_detail..." />
-          </folding>
-        </state>
+        <state line="121" column="129" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="44" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="2556">
-          <folding>
-            <marker date="1453203723377" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
-          </folding>
-        </state>
+        <state line="103" column="44" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="2556" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_hapus.php">
@@ -297,21 +341,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="129" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2862">
-          <folding>
-            <marker date="1453612800638" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
-            <marker date="1453612800638" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi_detail..." />
-          </folding>
-        </state>
+        <state line="121" column="129" selection-start="3783" selection-end="3783" vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="44" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0" vertical-offset="1600" max-vertical-offset="2556">
-          <folding>
-            <marker date="1453203723377" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
-          </folding>
-        </state>
+        <state line="103" column="44" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0" vertical-offset="1600" max-vertical-offset="2556" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_hapus.php">
@@ -327,11 +362,6 @@
     <entry file="file://$PROJECT_DIR$/lib_function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="26" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="3492" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adminsman7bdg/index.php">
@@ -369,11 +399,6 @@
         <state line="26" column="1" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="3060" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/desain_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-11.444445" vertical-offset="285" max-vertical-offset="2502" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desain.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="9" selection-start="862" selection-end="862" vertical-scroll-proportion="-7.4444447" vertical-offset="159" max-vertical-offset="3060" />
@@ -384,64 +409,36 @@
         <state line="13" column="67" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_generate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="225" selection-end="225" vertical-scroll-proportion="-0.19529837" vertical-offset="270" max-vertical-offset="1062" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_tambah.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="987" selection-end="987" vertical-scroll-proportion="0.47058824" vertical-offset="484" max-vertical-offset="2808">
-          <folding>
-            <marker date="1453264663735" expanded="true" signature="-1:-1" placeholder="SELECT id FR..absensi..." />
-            <marker date="1453264663735" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/AX50/desain_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="113" selection-start="4417" selection-end="4417" vertical-scroll-proportion="0.7525951" vertical-offset="1149" max-vertical-offset="2610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/halaman_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="33" selection-start="1159" selection-end="1159" vertical-scroll-proportion="-0.70558375" vertical-offset="1263" max-vertical-offset="1854">
-          <folding />
-        </state>
+        <state line="42" column="13" selection-start="987" selection-end="987" vertical-scroll-proportion="0.47058824" vertical-offset="484" max-vertical-offset="2808" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="5" selection-start="2309" selection-end="2392" vertical-scroll-proportion="19.25926" vertical-offset="1978" max-vertical-offset="2556">
+        <state line="81" column="5" selection-start="2309" selection-end="2392" vertical-scroll-proportion="19.25926" vertical-offset="1978" max-vertical-offset="2556" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_ubah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="24" selection-start="1167" selection-end="1167" vertical-scroll-proportion="-0.6816609" vertical-offset="1276" max-vertical-offset="2970">
           <folding>
-            <marker date="1453203723377" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="SELECT *, si..absensi_detail..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="UPDATE absen..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1453613544180" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib_function.php">
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_generate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="1" selection-start="5557" selection-end="5557" vertical-scroll-proportion="-20.074074" vertical-offset="3688" max-vertical-offset="4338">
+        <state line="31" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.34602076" vertical-offset="358" max-vertical-offset="1062">
           <folding>
-            <marker date="1453612276888" expanded="true" signature="-1:-1" placeholder="SELECT duras..ujian..." />
-            <marker date="1453612276888" expanded="true" signature="-1:-1" placeholder="SELECT duras..ujian..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/AX50/monitoring_absensi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="52" selection-start="10242" selection-end="10242" vertical-scroll-proportion="-15.407408" vertical-offset="3688" max-vertical-offset="5112">
-          <folding>
-            <marker date="1453612722340" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
-            <marker date="1453612722340" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi..." />
-            <marker date="1453612722340" expanded="true" signature="-1:-1" placeholder="SELECT nis, ..siswa..." />
-            <marker date="1453612722340" expanded="true" signature="-1:-1" placeholder="SELECT id, t..absensi..." />
-            <marker date="1453612722340" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi_detail..." />
-            <marker date="1453612722340" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453265443898" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
+            <marker date="1453265443898" expanded="true" signature="-1:-1" placeholder="SELECT nis F..siswa..." />
+            <marker date="1453265443898" expanded="true" signature="-1:-1" placeholder="SELECT nis_s..absensi_detail..." />
+            <marker date="1453265443898" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -456,14 +453,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/AX50/absensi_detail_ubah.php">
+    <entry file="file://$PROJECT_DIR$/halaman/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.34602076" vertical-offset="736" max-vertical-offset="2970">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="48.11111" vertical-offset="1299" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/monitoring_absensi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="98" selection-start="7939" selection-end="7939" vertical-scroll-proportion="-81.81481" vertical-offset="1265" max-vertical-offset="5940">
           <folding>
-            <marker date="1453613544180" expanded="true" signature="486:689" placeholder="SELECT *, si..absensi_detail..." />
-            <marker date="1453613544180" expanded="true" signature="1200:1281" placeholder="UPDATE absen..." />
-            <marker date="1453613544180" expanded="true" signature="1206:1266" placeholder="INSERT INTO ..." />
-            <marker date="1453613544180" expanded="true" signature="4845:4928" placeholder="..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kelas..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kelas..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT nis, ..siswa..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT nis, ..siswa..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT id, t..absensi..." />
+            <marker date="1453998029406" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi_detail..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="25" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.33217993" vertical-offset="672" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="704" selection-end="704" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="11" selection-start="2012" selection-end="2012" vertical-scroll-proportion="-39.444443" vertical-offset="339" max-vertical-offset="4338">
+          <folding>
+            <marker date="1453612276888" expanded="true" signature="-1:-1" placeholder="SELECT duras..ujian..." />
+            <marker date="1453612276888" expanded="true" signature="-1:-1" placeholder="SELECT duras..ujian..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/desain_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="33" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-14.814815" vertical-offset="1094" max-vertical-offset="2538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/halaman_guru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="34" selection-start="1276" selection-end="1276" vertical-scroll-proportion="-12.0" vertical-offset="594" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/desain_guru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="33" selection-start="4879" selection-end="4879" vertical-scroll-proportion="-11.185185" vertical-offset="1750" max-vertical-offset="3078">
+          <folding>
+            <marker date="1453998482745" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..guru..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/D255/monitoring_absensi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="302" selection-end="302" vertical-scroll-proportion="0.37370244" vertical-offset="0" max-vertical-offset="5940">
+          <folding>
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..absensi..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kelas..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kelas..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT nis, ..siswa..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT nis, ..siswa..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT id, t..absensi..." />
+            <marker date="1453998521944" expanded="true" signature="-1:-1" placeholder="SELECT absen..absensi_detail..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/D255/desain_guru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="2" selection-start="6551" selection-end="6551" vertical-scroll-proportion="0.31141868" vertical-offset="2430" max-vertical-offset="3636">
+          <folding>
+            <marker date="1453998550896" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..guru..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/AX50/desain_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="129" selection-start="4307" selection-end="4433" vertical-scroll-proportion="0.2983725" vertical-offset="1419" max-vertical-offset="2610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/O121/desain_ortu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="138" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.34775087" vertical-offset="1563" max-vertical-offset="2808">
+          <folding>
+            <marker date="1453998759292" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ortu..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/halaman_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="34" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-7.6296296" vertical-offset="640" max-vertical-offset="1854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/halaman_ortu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="35" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-10.666667" vertical-offset="702" max-vertical-offset="2124">
+          <folding>
+            <marker date="1432292394000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ortu..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/desain_ortu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="29" selection-start="3895" selection-end="3895" vertical-scroll-proportion="-9.148149" vertical-offset="1517" max-vertical-offset="2808">
+          <folding>
+            <marker date="1453998785776" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ortu..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/O121/monitoring_absensi_siswa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="175" selection-start="8155" selection-end="8155" vertical-scroll-proportion="0.7058824" vertical-offset="3228" max-vertical-offset="4950">
+          <folding>
+            <marker date="1453999478960" expanded="true" signature="376:410" placeholder="SELECT * FRO..ortu..." />
+            <marker date="1453999478960" expanded="true" signature="376:427" placeholder="SELECT * FRO..ortu..." />
+            <marker date="1453999478960" expanded="true" signature="783:798" placeholder="..." />
+            <marker date="1453999478960" expanded="true" signature="4113:4586" placeholder="SELECT absen..absensi..." />
+            <marker date="1453999478960" expanded="true" signature="6063:6121" placeholder="SELECT nis, ..siswa..." />
+            <marker date="1453999478960" expanded="true" signature="6608:6716" placeholder="SELECT id, t..absensi..." />
+            <marker date="1453999478960" expanded="true" signature="8063:8163" placeholder="SELECT absen..absensi_detail..." />
           </folding>
         </state>
       </provider>

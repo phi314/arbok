@@ -81,6 +81,8 @@ function menu_utama()
    <li class=""><a href="AX50/th_ajaran.php"><i class="icon-table"></i><span class="title">Pengolahan Tahun Ajaran</span></a></li>
    <li class=""><a href="AX50/kelas.php"><i class="icon-table"></i><span class="title">Pengolahan Kelas</span></a></li>
    <li class=""><a href="AX50/siswa.php"><i class="icon-table"></i><span class="title">Pengolahan Siswa</span></a></li>
+      <li class=""><a href="AX50/absensi.php"><i class="icon-table"></i><span class="title">Pengolahan Absensi</span></a></li>
+      <li class=""><a href="AX50/monitoring_absensi.php"><i class="icon-table"></i><span class="title">Monitoring Absensi</span></a></li>
   </ul>
  </div>
  <?php

@@ -143,6 +143,7 @@ function menu_utama()
     </ul>
    </li>
    <li class=""><a href="gallery.php?nip=<?php echo $nip; ?>"><i class="icon-camera"></i><span class="title">Gallery</span></a></li>
+  <li class=""><a href="monitoring_absensi.php"><i class="icon-table"></i><span class="title">Monitoring Absensi</span></a></li>
   </ul>
  </div>
  <?php

@@ -10,14 +10,14 @@
   }
   include_once "../../lib_function.php";
   koneksi_db();
-  include_once "desain_admin.php";
+  include_once "desain_guru.php";
   
   $sql_absensi = "SELECT * FROM absensi ORDER BY tanggal ASC";
   $result_absensi = mysql_query($sql_absensi);
   $jmldata_absensi = mysql_num_rows($result_absensi);
   $i = 0;
   
-  if($_SESSION["stats"] != "admin")
+  if($_SESSION["stats"] != "guru")
   {
     ?>
 	<script type="text/javascript">

@@ -10,14 +10,15 @@
   }
   include_once "../../lib_function.php";
   koneksi_db();
-  include_once "desain_admin.php";
-  
-  $sql_absensi = "SELECT * FROM absensi ORDER BY tanggal ASC";
-  $result_absensi = mysql_query($sql_absensi);
-  $jmldata_absensi = mysql_num_rows($result_absensi);
+  include_once "desain_ortu.php";
+
+  $id_ortu = $_SESSION['id_ortu'];
+  $q_detail_ortu= mysql_query("SELECT * FROM ortu WHERE id_ortu='$id_ortu' LIMIT 1");
+  $d_detail_ortu = mysql_fetch_object($q_detail_ortu);
+    $nis = $d_detail_ortu->nis;
   $i = 0;
   
-  if($_SESSION["stats"] != "admin")
+  if($_SESSION["stats"] != "ortu")
   {
     ?>
 	<script type="text/javascript">
@@ -69,7 +70,7 @@
  <div class="span12"><!--PANJANG TABEL-->
   <div class="portlet box blue"> <!--WARNA TABEL-->
    <div class="portlet-title">
-    <h4><i class="icon-edit"></i> MONITORING ABSENSI</h4>
+    <h4><i class="icon-edit"></i> MONITORING ABSENSI SISWA</h4>
 	<!--AWAL KONFIGURASI TAMBAHAN KONTEN
     AKHIR KONFIGURASI TAMBAHAN KONTEN-->
    </div>
@@ -78,30 +79,6 @@
        <div class="row-fluid">
            <div class="span3">
                <form action="">
-                   <div class="form-group">
-                       <label>Tingkat</label>
-                       <select name="tingkat" class="form-control">
-                           <option>X</option>
-                           <option>XI</option>
-                           <option>XII</option>
-                       </select>
-                   </div>
-                   <div class="form-group">
-                       <label>Nama Kelas</label>
-                       <select name="kelas" class="form-control">
-                           <option value="empty">-Pilih Kelas--</option>
-                       <?php
-                            $q_kelas = mysql_query("SELECT * FROM kelas ORDER BY nama_kelas ASC");
-                            while($data_kelas = mysql_fetch_object($q_kelas)):
-                        ?>
-                            <option value="<?php echo $data_kelas->id_kelas; ?>"><?php echo $data_kelas->nama_kelas; ?></option>
-                       <?php
-                            endwhile;
-                       ?>
-
-
-                       </select>
-                   </div>
                    <div class="form-group">
                        <label>Bulan</label>
                        <select name="bulan" class="form-control">
@@ -130,11 +107,9 @@
                </form>
            </div>
            <?php
-                if(!empty($_GET['bulan']) AND !empty($_GET['kelas']) AND !empty($_GET['tahun']))
+                if(!empty($_GET['bulan']) AND !empty($_GET['tahun']))
                 {
                     $bulan = $_GET['bulan'];
-                    $tingkat = $_GET['tingkat'];
-                    $kelas = $_GET['kelas'];
                     $tahun = $_GET['tahun'];
 
            ?>
@@ -145,32 +120,12 @@
                         $jumlah_izin = 0;
                         $nama_kelas = "";
 
-                        if($kelas == 'empty')
-                        {
-                            $q_jumlah_absensi = mysql_query("SELECT absensi_detail.id,  absensi_detail.absen
-                                                    FROM absensi
-                                                    JOIN absensi_detail ON absensi_detail.id_absensi=absensi.id
-                                                    JOIN siswa ON siswa.nis=absensi_detail.nis_siswa
-                                                    JOIN kelas ON kelas.id_kelas=siswa.id_kelas
-                                                    WHERE MONTH(absensi.tanggal) = '$bulan'
-                                                    AND YEAR(absensi.tanggal) = '$tahun'
-                                                    AND kelas.tingkat = '$tingkat'");
-                        }
-                        else
-                        {
-                            $q_jumlah_absensi = mysql_query("SELECT absensi_detail.id,  absensi_detail.absen
-                                                    FROM absensi
-                                                    JOIN absensi_detail ON absensi_detail.id_absensi=absensi.id
-                                                    JOIN siswa ON siswa.nis=absensi_detail.nis_siswa
-                                                    JOIN kelas ON kelas.id_kelas=siswa.id_kelas
-                                                    WHERE MONTH(absensi.tanggal) = '$bulan'
-                                                    AND YEAR(absensi.tanggal) = '$tahun'
-                                                    AND kelas.id_kelas = '$kelas'");
-
-                            $q_detail_kelas = mysql_query("SELECT * FROM kelas WHERE id_kelas='$kelas' LIMIT 1");
-                            $d_detail_kelas = mysql_fetch_object($q_detail_kelas);
-                            $nama_kelas = $d_detail_kelas->nama_kelas;
-                        }
+                        $q_jumlah_absensi = mysql_query("SELECT absensi_detail.id,  absensi_detail.absen
+                                                FROM absensi
+                                                JOIN absensi_detail ON absensi_detail.id_absensi=absensi.id
+                                                WHERE MONTH(absensi.tanggal) = '$bulan'
+                                                AND YEAR(absensi.tanggal) = '$tahun'
+                                                AND absensi_detail.nis_siswa='$nis'");
 
 
 
@@ -191,8 +146,6 @@
                         }
 
                    ?>
-                   <h3><?php echo $kelas == 'empty' ? "Tingkat: ".$tingkat : "Kelas: ".$nama_kelas; ?><?php echo "<br>Bulan: ".getBulan($bulan)."<br>Tahun: ".$tahun; ?></h3>
-
                     <table class="table table-striped table-hover table-bordered" id="sample_editable_2">
                         <thead>
                         <tr>
@@ -214,14 +167,7 @@
                     <div class="row-fluid">
                         <div class="span12">
                             <?php
-                            if($kelas == 'empty')
-                            {
-                                $q_siswa = mysql_query("SELECT nis, nama_siswa, nama_kelas FROM siswa JOIN kelas ON kelas.id_kelas=siswa.id_kelas WHERE kelas.tingkat='$tingkat'");
-                            }
-                            else
-                            {
-                                $q_siswa = mysql_query("SELECT nis, nama_siswa, nama_kelas FROM siswa JOIN kelas ON kelas.id_kelas=siswa.id_kelas WHERE kelas.id_kelas='$kelas'");
-                            }
+                                $q_siswa = mysql_query("SELECT nis, nama_siswa FROM siswa WHERE nis='$nis' LIMIT 1");
 
                             ?>
                             <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
@@ -245,7 +191,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <?php while($data_siswa = mysql_fetch_object($q_siswa)): ?>
+                                <?php $data_siswa = mysql_fetch_object($q_siswa); ?>
                                     <tr>
                                         <td><?php echo $data_siswa->nis; ?></td>
                                         <td><?php echo $data_siswa->nama_siswa; ?></td>
@@ -254,7 +200,7 @@
                                         $s = 0;
                                         $i = 0;
                                         foreach($array_absensi as $absensi):
-                                            $q_detail_absensi_siswa = mysql_query("SELECT absen FROM absensi_detail WHERE nis_siswa='$data_siswa->nis' AND id_absensi='$absensi' LIMIT 1");
+                                            $q_detail_absensi_siswa = mysql_query("SELECT absen FROM absensi_detail WHERE nis_siswa='$data_siswa->nis' AND id_absensi='$absensi'LIMIT 1");
                                             if(mysql_num_rows($q_detail_absensi_siswa) > 0):
                                                 $data_detail_absensi_siswa = mysql_fetch_object($q_detail_absensi_siswa);
                                                 if($data_detail_absensi_siswa->absen == 'hadir')
@@ -275,13 +221,12 @@
                                                 <td></td>
                                             <?php endif; ?>
                                         <?php
-                                        endforeach;
+                                            endforeach;
                                         ?>
                                         <td><?php echo $h; ?></td>
                                         <td><?php echo $s; ?></td>
                                         <td><?php echo $i; ?></td>
                                     </tr>
-                                <?php endwhile; ?>
                                 </tbody>
                             </table>
 
